@@ -31,7 +31,7 @@ Enter Side:4
 Press:
 1. for area
 2. for perimeter
- 3. set width
+3. set width
 4. set height
 5. get width
 6. get height
