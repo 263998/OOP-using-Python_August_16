@@ -35,7 +35,8 @@ def test_rectangle_picture():
     test = polygon_calculator.Rectangle(7,3)
     assert test.get_picture() == "*******\n*******\n*******\n"
 def test_square_picture():
-    test = polygon_calculator.Square(2 == "**\n**\n")
+    test = polygon_calculator.Square(2)
+    assert test.get_picture() == "**\n**\n"
 
 
 def test_big_picture():
